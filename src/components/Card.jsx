@@ -1,12 +1,12 @@
 import '../styles/Card.css'
 
-function Card (props) {
+function Card ({ text = "", handleClick }) {
     return (
         <>
-            <div className="card-wrapper">
+            <div className="card-wrapper" onClick={handleClick}>
                 <div className="card-img">IMG placeholder</div>
                 <div className="card-text-wrapper">
-                    <div className="card-text">{props.text}</div>
+                    <div className="card-text">{text}</div>
                 </div>
             </div>
         </>
