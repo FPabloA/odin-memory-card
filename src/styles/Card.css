@@ -1,18 +1,36 @@
 .card-wrapper {
-    background-color: rebeccapurple;
+    background-color: #f6f6f6;
     max-width: 250px;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 30px;
+}
+
+.card-img-wrapper {
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.904);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .card-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid rgb(44, 22, 66) 1px;
+    border-bottom: solid rgb(0, 0, 0) 1px;
     width: 250px;
     height: 200px;
     margin-bottom: 15px;
+}
+
+.card-btn-div {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 50%;
 }
 
 .card-text-wrapper {
@@ -24,6 +42,8 @@
 }
 
 .card-text {
-    font-size: 20px;
+    padding-top: 15px;
+    font-size: 24px;
     min-height: 125px;
+    color: black;
 }
